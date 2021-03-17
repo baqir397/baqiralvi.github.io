@@ -161,6 +161,13 @@ img{
 }
 .nav__logo{
   color: var(--second-color);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav__list{
+  position: relative;
+  left: 50px;
 }
 .nav__toggle{
   color: var(--second-color);
@@ -181,7 +188,7 @@ img{
 
 /*=== Show menu ===*/
 .show{
-  right: 0;
+  right: -50px;
 }
 
 /*===== HOME =====*/
