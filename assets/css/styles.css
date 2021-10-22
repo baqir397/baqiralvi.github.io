@@ -299,45 +299,6 @@ img{
   border-radius: .5rem;
   z-index: var(--z-back);
 }
-.skills__html{
-  width: 80%;
-}
-.skills__css{
-  width: 70%;
-}
-.skills__js{
-  width: 70%;
-}
-.skills__nodejs{
-  width: 85%;
-}
-.skills__reactjs{
-  width: 70%;
-}
-.skills__mongodb{
-  width: 70%;
-}
-.skills__express{
-  width: 70%;
-}
-.skills__c{
-  width: 90%;
-}
-.skills__cpp{
-  width: 90%;
-}
-.skills__dsa{
-  width: 80%;
-}
-.skills__java{
-  width: 70%;
-}
-.skills__python{
-  width: 90%;
-}
-.skills__bootstrap{
-  width: 90%;
-}
 
 /* ===== ACHIEVEMENTS =====*/
 .work__container{
