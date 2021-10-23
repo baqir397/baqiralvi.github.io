@@ -320,7 +320,7 @@
             fetch(scriptURL, { method: 'POST', body: new FormData(form) })
                 .then(response => $("#form_alerts").html("<div class='alert alert-success'>Contact message sent successfully.</div>"))
                 .catch(error => $("#form_alerts").html("<div class='alert alert-danger'>Contact message not sent.</div>"))
-                alert("Contact message sent successfully.");
+            alert("Contact message sent successfully.");
         })
     </script>
 
