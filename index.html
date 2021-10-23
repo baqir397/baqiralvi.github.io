@@ -269,7 +269,7 @@
                     <input type="text" name="name" id="name" placeholder="Name" class="contact__input">
                     <input type="mail" name="email" id="email" placeholder="Email" class="contact__input">
                     <textarea name="message" id="message" cols="0" rows="10" class="contact__input"></textarea>
-                    <button type="submit" class="contact__button button">Contact</button>
+                    <button type="submit" class="contact__button button" onClick="window.location.reload()">Contact</button>
                 </form>
             </div>
         </section>
@@ -320,6 +320,7 @@
             fetch(scriptURL, { method: 'POST', body: new FormData(form) })
                 .then(response => $("#form_alerts").html("<div class='alert alert-success'>Contact message sent successfully.</div>"))
                 .catch(error => $("#form_alerts").html("<div class='alert alert-danger'>Contact message not sent.</div>"))
+                alert("Contact message sent successfully.");
         })
     </script>
 
